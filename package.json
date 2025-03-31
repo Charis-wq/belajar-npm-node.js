@@ -8,6 +8,10 @@
     "url": "https://github.com/Charis-wq/belajar-npm-node.js"
   },
   "scripts": {
+    "prestart": "echo 'before aplication start'",
+    "start": "node script.js",
+    "poststart": "echo 'after aplication start'",
+    "run": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
