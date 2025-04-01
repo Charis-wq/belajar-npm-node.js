@@ -1,8 +1,11 @@
 {
-  "name": "dsa",
+  "name": "belajar-npm",
   "version": "1.0.0",
   "description": "belajar Node.js NPM",
-  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./write": "./write.js" 
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/Charis-wq/belajar-npm-node.js"
@@ -19,5 +22,8 @@
   ],
   "author": "Abdul charis",
   "license": "ISC",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "lodash": "4.17.21"
+  }
 }
